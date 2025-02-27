@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Omotayo Ayeni for AI, software development, and UI/UX design inquiries.">
+    <meta name="author" content="Omotayo Ayeni">
+    <meta name="keywords" content="Contact, AI Engineer, Software Developer, UI/UX Designer, Web Developer">
+    <title>Contact - Omotayo Ayeni</title>
+
+    <!-- Stylesheet & Scripts -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+    <!-- FontAwesome Icons -->
+    <script defer src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Contact Me</h1>
+            <nav role="navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>Have a project or want to collaborate? Reach out to me via email or social media.</p>
+
+            <!-- Contact Links -->
+            <div class="contact-links">
+                <a href="mailto:aduraayeni5@gmail.com?subject=Inquiry&body=Hello Omotayo," class="contact-item" aria-label="Send an email">
+                    <i class="fas fa-envelope"></i> Gmail
+                </a>
+                <a href="https://github.com/ade-jokes" target="_blank" class="contact-item" aria-label="Visit GitHub profile">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/omotayo-ayeni-803a30294/" target="_blank" class="contact-item" aria-label="Visit LinkedIn profile">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="form-container">
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required aria-required="true">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required aria-required="true">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your Message" required aria-required="true"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+                <p id="form-message"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="success-modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+            <h3 id="modal-title">✔️ Message Sent Successfully!</h3>
+            <p>Thank you for reaching out. I'll get back to you soon.</p>
+            <button id="close-modal">OK</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Omotayo Ayeni. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
